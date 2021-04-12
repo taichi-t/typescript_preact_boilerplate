@@ -1,4 +1,5 @@
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
+import Router from "preact-router"
+import { h, render } from "preact"
 
-ReactDOM.render(<p>Hello world</p>, document.getElementById('app'));
+
+render(<p>Hello world</p>, document.body);
